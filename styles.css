@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Montserrat:wght@200;300;500&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    color: #4d4e53;
+}
+
+.side-menu-wrapper {
+    display: flex;
+}
+
+.side-menu .side-menu-wrapper .side-nav-wrapper {
+    width: 40%;
+    border-right: 2px solid #4d4e53;
+    margin: 0 2rem 0 0;
+    height: 660px;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+.side-menu .side-menu-wrapper .side-nav-wrapper h1 {
+    position: fixed;
+    text-align: center;
+    background: #fff;
+    font-size: 24px;
+    color: #000;
+    padding: 1rem 1rem;
+}
+
+.side-menu .side-menu-wrapper ul {
+    padding-top: 4rem;
+}
+
+.side-menu .side-menu-wrapper .side-nav-wrapper ul a {
+    padding: 13px 0;
+    text-align: center;
+    border-top: 1px solid #4d4e53;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+} 
+
+.side-menu .side-menu-wrapper ul a:hover {
+    cursor: pointer;
+}
+
+.intro-content-wrapper {
+  max-height: 630px;  
+  width: 2280px;
+  overflow-y: auto;
+} 
+
+.side-menu .doc-container .intro-content-wrapper {
+    margin-top: 2em;
+    padding-left: 1.2rem;
+}
+
+.side-menu .doc-container .intro-content-wrapper .intro h2 {
+    color: #000;
+}
+
+.side-menu .doc-container .intro p {
+    padding-top: 1.2rem;
+    font-size: 15px;
+    line-height: 22.5px;
+    word-spacing: 0px;
+    max-width: 95%;
+}
+
+.side-menu .doc-container .intro ul {
+    max-width: 95%;
+    padding: 1% 5%;
+}
+
+.side-menu .doc-container .intro ul li {
+    font-size: 15px;
+    line-height: 22.5px;
+    word-spacing: 0px;
+    padding-top: 1.2rem;
+}
+
+.side-menu .doc-container .intro ul h6 {
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 12.5px;
+    line-height: 18px;
+    padding: 1.2rem;
+    margin: 13px;
+    background: #f7f7f7;
+}
+
+.side-menu .doc-container .intro .code-java {
+    
+}
+
