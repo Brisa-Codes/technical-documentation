@@ -101,3 +101,42 @@ body {
     background: #f7f7f7;
 }
 
+@media only screen and (max-width: 1033px) {
+    .side-menu.side-menu-wrapper .side-nav-wrapper {
+        display: none;
+    }
+
+    .intro-content-wrapper .intro p {
+        word-wrap: break-word;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .side-nav-wrapper {
+        display: none;
+    }
+
+    .intro-content-wrapper .intro p {
+        word-wrap: break-word;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .side-nav-wrapper {
+        display: none;
+    }
+
+    .intro-content-wrapper .intro p {
+        word-wrap: break-word;
+    }
+}
+
+@media only screen and (max-width: 915px) {
+    .side-nav-wrapper {
+        display: none;
+    }
+
+    .intro-content-wrapper .intro p {
+        word-wrap: break-word;
+    }
+}
