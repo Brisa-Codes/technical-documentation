@@ -68,6 +68,7 @@ body {
 
 .side-menu .doc-container .intro-content-wrapper .intro h2 {
     color: #000;
+    padding-top: 1.2rem;
 }
 
 .side-menu .doc-container .intro p {
@@ -90,7 +91,7 @@ body {
     padding-top: 1.2rem;
 }
 
-.side-menu .doc-container .intro ul h6 {
+.side-menu .doc-container .intro h6 {
     font-family: monospace;
     font-weight: lighter;
     font-size: 12.5px;
@@ -98,9 +99,5 @@ body {
     padding: 1.2rem;
     margin: 13px;
     background: #f7f7f7;
-}
-
-.side-menu .doc-container .intro .code-java {
-    
 }
 
